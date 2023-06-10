@@ -39,7 +39,15 @@ img {
 
 /* header */
 .header-section {
-	border-bottom: 1px solid var(--border);
+	position: relative;
+}
+.header-section:after {
+	content: "";
+	height: 1px;
+	width: 100%;
+	background-color: var(--border);
+	position: absolute;
+	bottom: 0;
 }
 .menu-item {
 	padding: 24px 0;
