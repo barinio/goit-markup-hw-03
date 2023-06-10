@@ -45,6 +45,7 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 24px 0;
 }
 .header-nav {
 	display: flex;
@@ -53,10 +54,6 @@ img {
 .nav-list {
 	display: flex;
 	gap: 40px;
-}
-.menu-item {
-	padding-top: 24px;
-	padding-bottom: 24px;
 }
 .link {
 	text-decoration: none;
