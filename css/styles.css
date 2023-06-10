@@ -49,6 +49,8 @@ img {
 .header-nav {
 	display: flex;
 	align-items: center;
+}
+.header-section li {
 	padding: 24px 0;
 }
 .nav-list {
