@@ -29,8 +29,6 @@ img {
 }
 .container {
 	width: 1158px;
-	border: 1px solid red;
-	margin: 0;
 }
 .section {
 	padding: 120px 156px;
@@ -241,7 +239,7 @@ img {
 	gap: 24px;
 }
 .projects-section {
-	padding-top: 96px;
+	padding: 96px 156px;
 }
 .filters-btn {
 	font-family: Roboto, sans-serif;
@@ -270,13 +268,13 @@ img {
 .projects-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
-	min-width: 1128px;
+	gap: 24px;
 }
 
 .projects-list li {
 	border: 1px solid #e7e9fc;
 	width: 360px;
+	margin-bottom: 24px;
 }
 .projects-list img {
 	margin: -1px;
