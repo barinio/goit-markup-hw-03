@@ -40,6 +40,8 @@ img {
 /* header */
 .header-section {
 	border-bottom: 1px solid var(--border);
+}
+.menu-item {
 	padding: 24px 0;
 }
 .header-container {
