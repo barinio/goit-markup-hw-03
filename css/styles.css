@@ -40,7 +40,6 @@ img {
 /* header */
 .header-section {
 	border-bottom: 1px solid var(--border);
-	padding: 24px 0;
 }
 .header-container {
 	display: flex;
@@ -55,7 +54,10 @@ img {
 	display: flex;
 	gap: 40px;
 }
-
+.menu-item {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
 .link {
 	text-decoration: none;
 	color: var(--caption);
