@@ -78,7 +78,6 @@ img {
 	text-transform: uppercase;
 	letter-spacing: 0.03em;
 	margin-right: 76px;
-	width: 115px;
 }
 .logo:hover,
 .logo:focus {
@@ -235,8 +234,6 @@ img {
 	background-color: var(--caption);
 	padding: 100px 0;
 }
-.footer-container {
-}
 .logo-footer {
 	color: var(--cloud);
 }
@@ -249,8 +246,7 @@ img {
 }
 .footer-section .logo {
 	display: inline-block;
-	margin-bottom: 16px;
-	height: 24px;
+	margin: 0 0 16px 0;
 }
 
 /* portfolio */
@@ -299,7 +295,6 @@ img {
 .card-project {
 	width: calc((100% - 48px) / 3);
 	border: 1px solid var(--border);
-	margin-bottom: 24px;
 }
 .link .card-content {
 	border: 1px solid var(--border);
