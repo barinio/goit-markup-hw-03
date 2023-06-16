@@ -295,9 +295,6 @@ img {
 .card-project {
 	width: calc((100% - 48px) / 3);
 	border: 1px solid var(--border);
-}
-.link .card-content {
-	border: 1px solid var(--border);
 	border-top: none;
 }
 .projects-list img {
